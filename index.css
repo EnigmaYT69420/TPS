@@ -1,13 +1,140 @@
-
-#digital-clock {
- padding-top: 0.5px;
- padding-bottom: 50px;
- padding-right: 70px;
- font-family: 'Open Sans Condensed', Cairo;
- font-size: 20px;
- text-align: right;
- text-color: green;
+    height: 100%;
 }
+     
+body{
+    margin: 0px;
+    padding: 0px;
+    background: red;
+    font-family: 'Roboto';
+    font-size: 12pt;
+}
+    
+p, ol, ul{
+    margin-top: 0;
+}
+ 
+p {
+    line-height: 180%;
+}
+ 
+ol, ul{
+    padding: 0;
+    list-style: none;
+}
+     
+.container{   
+ 
+    margin: 0px auto;
+    width: 1000px;
+}
+
+header{
+     
+    overflow: hidden;
+}
+#logo{
+    float: left;
+    padding: none;
+    margin: none;
+    height: 60px;
+    width: 30%;
+}
+ 
+
+#menu{
+    float:right;
+    width: 70%;
+    height: 100%;
+    margin: none;
+}
+
+     
+#menu li{
+    display: inline-block;
+    padding: none;
+    margin: none;
+}
+ 
+
+     
+#menu li:hover a, #menu li span{
+    background: #242124;
+    text-color:lime;
+    text-decoration: none;
+    opacity: 0.8;
+    transform: translateY(3px);
+    transition: 2s;
+    
+}
+
+header{
+     
+    overflow: hidden;
+}
+ 
+#top-header{
+    text-color:lime;     
+    text-align: center;
+    height: 60px;
+}
+
+ 
+#menu{
+    float: right;
+    width: 65%;
+    height: 100%;
+    margin: none;
+
+}
+     
+#menu ul{
+    text-align: center;
+    float: right;
+    margin: none;
+    background: black;
+}
+     
+#menu li{
+    display: inline-block;
+    padding: none;
+    margin: none;
+}
+     
+#menu li a, #menu li span{
+    display: inline-block;
+    padding: 0em 1.5em;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+     
+#menu li a{
+         
+    color: White;
+}
+     
+#menu li:hover a, #menu li span{
+    color: lime;
+    border-right: 0.001px solid lime;
+    border-left: 0.001px solid lime;
+    border-top: 0.001px solid lime;
+    border-bottom: 0.001px solid lime;
+    text-decoration: none;
+}
+
+#search2 {
+   float: left;
+   padding:11px;
+   border:none;
+   margin-top: 3px;
+   margin-left:-40px;
+   font-size: 17px;
+   position: relative;
+   left: 160px;
+}
+
+
 
 
 
@@ -108,64 +235,4 @@ p12{
 p14{
   font-size: 20px;
 }
-
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-.dropbtn {
-  background-color:black;
-  color:pink;
-  padding: 12px;
-  font-size: px;
-  border: none;
-  cursor: pointer;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  right: 0;
-  background-color:#242124; 
-  min-width: 160px;
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: #56e55e;
-  padding: 20px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {background-color: black;}
-.dropdown:hover .dropdown-content {display: block;}
-.dropdown:hover .dropbtn {background-color: #56e55e;}
-</style>
-</head>
-<body>
-
-
-
-<div class="dropdown" style="float:right;">
-  <button class="dropbtn">Menu</button>
-  <div class="dropdown-content">
-    <a href="https://www.google.com/search?q=memes&source=lmns&bih=760&biw=1536&hl=en&sa=X&ved=2ahUKEwjWoqiWlpP3AhWqTPUHHVfxBvUQ_AUoAHoECAEQAA">Memes</a>
-    <a href="https://en.wikipedia.org/wiki/Internet_meme">Internet memes </a>
-    <a href="https://memes.com/">Memes</a>
-    <a href="https://www.pinterest.jp/NicoletteS93/memes/">999+ Memes</a>
-    <a href="https://stacker.com/stories/2650/50-famous-memes-and-what-they-mean">History of memes</a>
-  </div>
-</div>
-
-</body>
-</html>
-
-
 
